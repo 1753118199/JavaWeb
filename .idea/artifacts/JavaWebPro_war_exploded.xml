@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaWebPro:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWebPro_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../依赖文件/ObjectToJson/commons-beanutils-1.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../依赖文件/ObjectToJson/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../依赖文件/ObjectToJson/commons-lang-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../依赖文件/ObjectToJson/commons-logging-1.1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../依赖文件/druid/druid-1.1.21.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../依赖文件/ObjectToJson/ezmorph-1.0.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../依赖文件/ObjectToJson/json-lib-2.4-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../依赖文件/mysql8.0/mysql-connector-java-8.0.20.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
